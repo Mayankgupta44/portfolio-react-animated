@@ -31,11 +31,11 @@ const Experience = () => {
             }`}
           >
             {/* Timeline Circle */}
-            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 bg-gray-400 border-4 border-[#8245ec] w-12 h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
+            <div className="absolute sm:left-1/2 left-0 transform -translate-x-1/2 sm:-translate-x-0 w-12 bg-white border-4 border-[#8245ec] h-12 sm:w-16 sm:h-16 rounded-full flex justify-center items-center z-10">
               <img
                 src={experience.img}
                 alt={experience.company}
-                className="w-full h-full object-cover rounded-full"
+                className="w-full h-full object-contain p-1 rounded-full"
               />
             </div>
 
@@ -52,7 +52,7 @@ const Experience = () => {
                   <img
                     src={experience.img}
                     alt={experience.company}
-                    className="w-full h-full object-cover"
+                    className="w-full h-full object-contain p-2"
                   />
                 </div>
 
