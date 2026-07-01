@@ -30,6 +30,8 @@ import vercelLogo from './assets/tech_logo/vercel.png';
 
 // Experience Section Logo's
 import ibmLogo from './assets/company_logo/ibm.png';
+import update247Logo from './assets/company_logo/update247Logo.jpg';
+import infoxenLogo from './assets/company_logo/infoxenLogo.jpg';
 
 // Education Section Logo's
 import abeslogo from './assets/education_logo/abeslogo.jpg';
@@ -98,6 +100,36 @@ export const SkillsInfo = [
 export const experiences = [
   {
     id: 0,
+    img: update247Logo, // Replace with the actual Update247 logo variable
+    role: "Developer Trainee",
+    company: "Update247",
+    date: "Mar 2026 - June 2026",
+    desc: "Worked on live PMS and reservation system modules using PHP, jQuery, AJAX, and MySQL, contributing to backend workflows, bug fixes, and database-driven features. Built browser-side caching for a key occupancy reporting module using IndexedDB (Dexie.js) and implemented smart synchronization logic.",
+    skills: [
+      "PHP", 
+      "jQuery", 
+      "AJAX", 
+      "MySQL", 
+      "IndexedDB"
+    ],
+  },
+  {
+    id: 1,
+    img: infoxenLogo, // Replace with the actual Infoxen logo variable
+    role: "Trainee Software Developer",
+    company: "Infoxen Technologies",
+    date: "Nov 2025 - Feb 2026",
+    desc: "Worked on a device repair booking platform using Laravel, Vue.js 2, Axios, and MySQL. Executed dynamic pricing logic and embedded location-based features using Mapbox and Google Maps for address search and service availability.",
+    skills: [
+      "Laravel", 
+      "Vue.js 2", 
+      "Axios", 
+      "MySQL", 
+      "Mapbox"
+    ],
+  },
+  {
+    id: 2,
     img: ibmLogo, // Replace with the actual IBM or Edunet logo variable
     role: "Front-End Web Development Intern",
     company: "IBM SkillsBuild | Edunet Foundation",
@@ -113,7 +145,7 @@ export const experiences = [
     ],
   },
   {
-    id: 1,
+    id: 3,
     img: ibmLogo, // Replace with the actual IBM or Edunet logo variable
     role: "AI & Cloud Technologies Intern",
     company: "IBM SkillsBuild | Edunet Foundation",
@@ -168,46 +200,52 @@ export const experiences = [
 export const projects = [
   {
     id: 0,
-    title: "TRADEVERSE | Full-Stack Stock Trading Platform",
+    title: "AI-Powered Interview Preparation Platform",
     description:
-      "Engineered a high-performance stock trading platform featuring real-time data for over 100 symbols. The robust backend, built with Node.js and Express, flawlessly manages 1,000+ user accounts and 5,000+ daily transactions with 99.9% uptime. Deployed on Render, the platform achieves a 30% improvement in load time and dynamic data visualizations using Chart.js.",
-    
-    tags: ["Node.js", "Express.js", "MongoDB", "Jest", "Chart.js", "Render"],
-    image: tradeverseLogo,
-    github: "https://github.com/Mayankgupta44/tradeverse", // Update with actual repo link
-    webapp: "https://tradeverse-frontend.onrender.com/", // Update with your deployed app link
+      "Developed a full-stack AI interview preparation platform using Java 17, Spring Boot 3, React, and PostgreSQL. Applied secure JWT authentication with Spring Security and protected REST APIs. Integrated Groq AI API to generate interview questions, perform skill-gap analysis, and evaluate text/audio answers. Added PDF resume upload and text extraction using Apache PDFBox.",
+    tags: ["Java", "Spring Boot", "React", "PostgreSQL", "Groq AI", "JWT"],
+    image: aiInterviewLogo, // Make sure to define/import this variable at the top of constants.js
+    github: "https://github.com/Mayankgupta44/YOUR_REPO_NAME", // Update with actual repo link
+    webapp: "YOUR_LIVE_DEMO_LINK", // Update with your deployed app link
   },
   {
     id: 1,
-    title: "WANDERLUST | Full-Stack Rental Listing Application",
+    title: "TRADEVERSE | Full-Stack Stock Trading Platform",
     description:
-      "A feature-rich rental listing platform supporting bookings, reviews, and media uploads. Its modular architecture using Node.js, EJS, and MongoDB efficiently handles 100+ active users and 500+ media files via Cloudinary. Deployed on Render with a 15% faster server response time and high availability.",
-    
-    tags: ["Node.js", "Express.js", "EJS", "MongoDB", "Cloudinary", "Render"],
-    image: wanderlustLogo,
-    github: "https://github.com/Mayankgupta44/wanderlust", // Update with actual repo link
-    webapp: "https://backend-project-inks.onrender.com/listings", // Update with your deployed app link
+      "Engineered a high-performance stock trading platform featuring real-time data for over 100 symbols. The robust backend, built with Node.js and Express, flawlessly manages 1,000+ user accounts and 5,000+ daily transactions with 99.9% uptime. Deployed on Render, the platform achieves a 30% improvement in load time and dynamic data visualizations using Chart.js.",
+    tags: ["Node.js", "Express.js", "MongoDB", "Jest", "Chart.js", "Render"],
+    image: tradeverseLogo,
+    github: "https://github.com/Mayankgupta44/tradeverse", 
+    webapp: "https://tradeverse-frontend.onrender.com/", 
   },
   {
     id: 2,
-    title: "Movie Review & Rating Platform",
+    title: "WANDERLUST | Full-Stack Rental Listing Application",
     description:
-      "A responsive web application leveraging the TMDB API to provide real-time search, ratings, and reviews for 500+ movies. Focused on user experience with efficient client-side data handling that boosts engagement. Fully responsive, achieving a 30% improvement in cross-device performance.",
-   
-    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "API"],
-    image: movieAppLogo,
-    github: "https://github.com/Mayankgupta44/movie-review-platform", // Update with actual repo link
-    webapp: "https://github.com/Mayankgupta44/movie-review-platform", // Update with your deployed app link
+      "A feature-rich rental listing platform supporting bookings, reviews, and media uploads. Its modular architecture using Node.js, EJS, and MongoDB efficiently handles 100+ active users and 500+ media files via Cloudinary. Deployed on Render with a 15% faster server response time and high availability.",
+    tags: ["Node.js", "Express.js", "EJS", "MongoDB", "Cloudinary", "Render"],
+    image: wanderlustLogo,
+    github: "https://github.com/Mayankgupta44/wanderlust", 
+    webapp: "https://backend-project-inks.onrender.com/listings", 
   },
   {
     id: 3,
+    title: "Movie Review & Rating Platform",
+    description:
+      "A responsive web application leveraging the TMDB API to provide real-time search, ratings, and reviews for 500+ movies. Focused on user experience with efficient client-side data handling that boosts engagement. Fully responsive, achieving a 30% improvement in cross-device performance.",
+    tags: ["HTML5", "CSS3", "JavaScript", "Bootstrap", "API"],
+    image: movieAppLogo,
+    github: "https://github.com/Mayankgupta44/movie-review-platform", 
+    webapp: "https://github.com/Mayankgupta44/movie-review-platform", 
+  },
+  {
+    id: 4,
     title: "Fitness Buddy | AI Virtual Assistant",
     description:
       "An AI-powered virtual assistant built using IBM Watsonx.ai and Granite LLM to deliver personalized workouts and diet plans. It integrates a predictive ML model from IBM Cloud AutoAI into a chatbot interface, providing interactive and intelligent fitness guidance.",
-   
     tags: ["AI/ML", "IBM Watsonx.ai", "IBM Cloud", "Chatbot"],
     image: fitnessBuddyLogo,
-    github: "https://github.com/Mayankgupta44/fitness-buddy", // Update with actual repo link
-    webapp: "https://github.com/Mayankgupta44/fitness-buddy", // Update with your deployed app link
+    github: "https://github.com/Mayankgupta44/fitness-buddy", 
+    webapp: "https://github.com/Mayankgupta44/fitness-buddy", 
   },
 ];

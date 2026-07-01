@@ -36,15 +36,11 @@ const About = () => {
           </h3>
           {/* About Me Paragraph */}
           <p className="text-base sm:text-lg md:text-lg text-gray-400 mb-10 mt-8 leading-relaxed">
-            I'm a pre-final year CSE student who loves building cool stuff and
-            making things run faster. Skilled in both front-end and back-end
-            development, I specialize in the MERN stack and other modern
-            technologies to create seamless user experiences and efficient
-            solutions.
+            I'm a recent Computer Science graduate and Developer Trainee who loves building scalable applications and optimizing database performance. Skilled in front-end and back-end workflows, I specialize in modern technologies like Java, Spring Boot, PHP, Laravel, and React to create robust, data-driven solutions and seamless user experiences.
           </p>
           {/* Resume Button */}
           <a
-            href="https://drive.google.com/file/d/1ndE744wZi1LUwTvNrDHB5XsPvgG12QNd/view?usp=sharing"
+            href="https://drive.google.com/file/d/1IBGu-oYdLQU4kdTijxeVE1ZgHCxEdahM/view?usp=sharing"
             target="_blank"
             rel="noopener noreferrer"
             className="inline-block text-white py-3 px-8 rounded-full mt-5 text-lg font-bold transition duration-300 transform hover:scale-105"
