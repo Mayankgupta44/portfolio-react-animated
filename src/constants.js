@@ -42,7 +42,7 @@ import tradeverseLogo from "./assets/projects_logo/trade.png";
 import wanderlustLogo from "./assets/projects_logo/wanderlust.png";
 import movieAppLogo from "./assets/projects_logo/movie.png";
 import fitnessBuddyLogo from "./assets/projects_logo/fit.png";
-
+import aiInterviewLogo from "./assets/projects_logo/aiInterviewLogo.jpg";
 
 export const SkillsInfo = [
   {
@@ -205,8 +205,8 @@ export const projects = [
       "Developed a full-stack AI interview preparation platform using Java 17, Spring Boot 3, React, and PostgreSQL. Applied secure JWT authentication with Spring Security and protected REST APIs. Integrated Groq AI API to generate interview questions, perform skill-gap analysis, and evaluate text/audio answers. Added PDF resume upload and text extraction using Apache PDFBox.",
     tags: ["Java", "Spring Boot", "React", "PostgreSQL", "Groq AI", "JWT"],
     image: aiInterviewLogo, // Make sure to define/import this variable at the top of constants.js
-    github: "https://github.com/Mayankgupta44/YOUR_REPO_NAME", // Update with actual repo link
-    webapp: "YOUR_LIVE_DEMO_LINK", // Update with your deployed app link
+    github: "https://github.com/Mayankgupta44/interview-coach-frontend", // Update with actual repo link
+    webapp: "https://interview-coach-frontend-o3kn.onrender.com/login", // Update with your deployed app link
   },
   {
     id: 1,
